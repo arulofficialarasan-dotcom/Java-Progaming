@@ -1,0 +1,11 @@
+class Function3 {
+
+    void add(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    public static void main(String[] args) {
+        Function3 f = new Function3();
+        f.add(10, 20);
+    }
+}
