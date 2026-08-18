@@ -1,0 +1,17 @@
+class Function4 {
+
+    int add() {
+        int a = 10;
+        int b = 20;
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+
+        Function4 f = new Function4();
+
+        int result = f.add();
+
+        System.out.println("Result = " + result);
+    }
+}
